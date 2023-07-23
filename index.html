@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+
+    <body>
+        <article class="results-card">
+            <header class="results-card__header">
+                <h1 class="visually-hidden">Results summary card</h1>
+                <h2 class="header__title">Your Result</h2>
+                <div class="header__total-score circle-bg">
+                    <p class="total-score-value">0</p>
+                    <p>of 100</p>
+                </div>
+                <p class="header__rate">Great</p>
+                <p class="header__info">You scored higher than <span class="info-percent-value">65</span>% of the people who have taken these tests.</p>
+            </header>
+
+            <section class="section-summary">
+                <h2 class="summary__title">Summary</h2>
+
+                <div class="summary__items">
+                    <div class="summary__item summary-reaction" data-category="reaction">
+                        <div class="summary__item-title">
+                            <img src="assets/images/icon-reaction.svg" alt="" class="item-title-icon">
+                            <p class="title-reaction">Reaction</p>
+                        </div>
+                        <p class="summary__item-score"><span class="summary__item-score-value">0</span> / 100</p>
+                    </div>
+
+                    <div class="summary__item summary-memory" data-category="memory">
+                        <div class="summary__item-title">
+                            <img src="assets/images/icon-memory.svg" alt="" class="item-title-icon">
+                            <p class="title-memory">Memory</p>
+                        </div>
+                        <p class="summary__item-score"><span class="summary__item-score-value score-memory">0</span> / 100</p>
+                    </div>
+
+                    <div class="summary__item summary-verbal" data-category="verbal">
+                        <div class="summary__item-title">
+                            <img src="assets/images/icon-verbal.svg" alt="" class="item-title-icon">
+                            <p class="title-verbal">Verbal</p>
+                        </div>
+                        <p class="summary__item-score"><span class="summary__item-score-value score-verbal">0</span> / 100</p>
+                    </div>
+
+                    <div class="summary__item summary-visual" data-category="visual">
+                        <div class="summary__item-title">
+                            <img src="assets/images/icon-visual.svg" alt="" class="item-title-icon">
+                            <p class="title-visual">Visual</p>
+                        </div>
+                        <p class="summary__item-score"><span class="summary__item-score-value score-visual">0</span> / 100</p>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">Continue</a>
+            </section>
+        </artilce>
+        
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
