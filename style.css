@@ -272,7 +272,8 @@ body {
 
     .summary__title {
         font-size: 2.4rem;
-        margin-bottom: 2.8;
+        margin-bottom: 2.8rem;
+        text-align: left;
     }
 
     .summary__items {
