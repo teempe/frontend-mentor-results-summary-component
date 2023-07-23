@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/teempe/frontend-mentor-results-summary-component.git](https://github.com/teempe/frontend-mentor-results-summary-component.git)
+- Live Site URL: [https://teempe.github.io/frontend-mentor-results-summary-component/](https://teempe.github.io/frontend-mentor-results-summary-component/)
 
 ## My process
 
